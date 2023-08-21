@@ -1,6 +1,6 @@
 # Street Food Hotel
 
-![Street Food Hotel](images/street-food screen.png)
+![Street Food Hotel](images/stree-food screen.png)
 
 **Author:** Densel Esekon
 
