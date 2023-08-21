@@ -1,11 +1,11 @@
-# Street Food Restaurant
+# Street Food Hotel
 
-![Street Food Restaurant](images/street-food screen.png)
+![Street Food Hotel](images/street-food screen.png)
 
 **Author:** Densel Esekon
 
 ## Introduction
-Welcome to the Street Food Restaurant website! This project showcases a modern and engaging website for a fictional street food restaurant. The website aims to provide visitors with an immersive experience of the restaurant's menu, special deals, and contact information.
+Welcome to the Street Food Hotelwebsite! This project showcases a modern and engaging website for a fictional street food Hotel. The website aims to provide visitors with an immersive experience of the Hotel menu, special deals, and contact information.
 
 ## Features
 - **Navigation:** Easily navigate through different sections of the website using the intuitive navigation menu.
@@ -14,7 +14,7 @@ Welcome to the Street Food Restaurant website! This project showcases a modern a
 - **"Eat Together" Message:** Emphasizes the importance of communal dining and shared experiences.
 - **Menu Exploration:** Explore the diverse menu items with enticing images and descriptions.
 - **Hot Deals:** Highlighting special combo packs to entice customers with great value.
-- **Contact Us:** A dedicated section for users to get in touch with the restaurant for inquiries and reservations.
+- **Contact Us:** A dedicated section for users to get in touch with the Hotel for inquiries and reservations.
 - **Footer:** Provides essential information about operating hours, contact details, and social media links.
 
 ## Installation
@@ -23,7 +23,7 @@ Welcome to the Street Food Restaurant website! This project showcases a modern a
 3. Open the `index.html` file in your preferred web browser to experience the website.
 
 ## Usage
-Visit the live website [here](https://esekon.github.io/street-food/) to explore the Street Food Restaurant's offerings, ambiance, and contact details.
+Visit the live website [here](https://esekon.github.io/street-food/) to explore the Street Food Hotel contact details.
 
 ## Technologies Used
 - HTML5 and CSS3 for structuring and styling the website.
