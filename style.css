@@ -307,4 +307,57 @@ button {
     width: 90%;
     font-size: 20px;
     
+}
+
+.footer-left{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+
+}
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.dotted-line {
+    border-top: 1px dotted #6CB840; 
+    flex: 1;
+    margin: 0 30px;
+}
+
+.footer-right-item{
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+.footer-right-content {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+.icon-button{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 60px;
+    margin-right: -40px;
+}
+
+.icon {
+    font-size: 24px;
+    margin:0 10px;
+    padding-bottom:20px;
+}
+
+.footer-right-item button {
+    background-color: #6CB840;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    font-weight: 800;
+    font-size: 20px;
+}
 
