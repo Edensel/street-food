@@ -190,12 +190,14 @@ button {
 
 .menu-title {
     font-size: 36px;
+    
 }
 .menu-img {
     display: grid;
     margin: auto;
     grid-gap: 20px;
     grid-template-columns: repeat(6, 1fr);
+    color: black;
 }
 
 .menu-img img {
@@ -214,6 +216,7 @@ button {
 
 .menu-img p {
     font-size: 18px;
+    color: black;
 }
 
 
