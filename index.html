@@ -13,27 +13,39 @@
 <body>
     <!--NavBar Starts here-->
     <nav>
-        <ul class="navbar-menu">
-            <li class="navbar-menu-item">Home</li>
-            <li class="navbar-menu-item">About</li>
-            <li class="navbar-menu-item">Our Menu</li>
-            <li class="navbar-menu-item">Happy Hour</li>
+        <div class="navbar-left">
+            <ul class="navbar-menu">
+                <li class="navbar-menu-item-left">Home</li>
+                <li class="navbar-menu-item">About</li>
+                <li class="navbar-menu-item">Our Menu</li>
+                <li class="navbar-menu-item">Happy Hour</li>
+            </ul>
+        </div>
+        <div class="navbar-center">
             <a class="navbar-title">
+                <i class="fa-solid fa-star"></i>
                 Street Food
             </a>
-            <li class="navbar-menu-item">Catering</li>
-            <li class="navbar-menu-item">Reservation</li>
-            <li class="navbar-menu-item">Gallery</li>
-            <li class="navbar-menu-item">Contact</li>
-        </ul>
+            <div class="circle"></div>
+        </div>
+        <div class="navbar-right">
+            <ul class="navbar-menu">
+                <li class="navbar-menu-item">Catering</li>
+                <li class="navbar-menu-item">Reservation</li>
+                <li class="navbar-menu-item">Gallery</li>
+                <li class="navbar-menu-item">Contact</li>
+            </ul>
+        </div>
     </nav>
     <!-- Navbar ends here-->
+    <div class="circle"></div>
+    
 
     <!-- Main Starts here-->
-    <main>
+    <main >
         <div class="banner">
             <div class="banner-left">
-                <h2 class="title">Street Food</h2>
+                <h2 class="title">Street <strong style="color: #EAAB1B;">Food</strong></h2>
                 <h3 class="sub-title">We don't play with food</h3>
                 <p class="paragraph">
                     When I was a small boy, my father told me never to recommend a church or a woman to anyonw. And I have found it wse never to recommend a restaurant either. Something always goes wrong with the cheese soufflé 
@@ -42,8 +54,9 @@
                     Order Now
                 </button>
             </div>
+            
             <!--Banner Image-->
-            <div class="banner-right">
+            <div class="banner-right" style="z-index: +1;">
                 <img src="images/image 5 (1).png" alt="aromatics">
             </div>
         </div>
@@ -51,12 +64,22 @@
         <!-- Food Images container starts here-->
 
         <div class="food-container">
-            <div class="food-img">
-                <img src="images/image 1.png" alt="image 1">
-                <img src="images/image 2.png" alt="image 2">
-                <img src="images/image 3.png" alt="image 3">
-                <img src="images/image 5.png" alt="image 5">
-                <img src="images/image 6.png" alt="image 6x">
+            <div class="circle-container">
+                <div class="circle">
+                    <img src="images/image 1.png" alt="image 1">
+                </div>
+                <div class="circle">
+                    <img src="images/image 2.png" alt="image 2">
+                </div>
+                <div class="circle">
+                    <img src="images/image 3.png" alt="image 3">
+                </div>
+                <div class="circle">
+                    <img src="images/image 5.png" alt="image 5">
+                </div>
+                <div class="circle">
+                    <img src="images/image 6.png" alt="image 6x">
+                </div>
             </div>
         </div>
         <!-- Food Images container ends here-->
@@ -107,6 +130,7 @@
             <div class="hot-deals-left">
                 <img src="images/juice.png" alt="Juice">
             </div>
+
             <div class="hot-deals-right">
                 <h1 class="combo-pack">SPECIAL COMBO PACK</h1>
                 <h3>Burger Pizz</h3>
@@ -135,26 +159,37 @@
 
         <!-- Footer Starts here-->
         <div class="footer">
-            <div class="footer-left-item">
-                <h3> Sunday - Thursday</h3>
-                <p>4-PM</p>
-                <h3> Sunday - Thursday</h3>
-                <p>4-PM</p>
-                <h3>(423) 266-1121</h3>
-                <p>801 Chestnut Street 1</p>
-                <p>chattanooga TN 37402</p>
-            </div>
-            <div class="footer-right-item">
-                <h3>FOLLOW</h3>
-                <p>GET THE LATEST NEWS.SIGN UP</p>
-                <P>FOR OUR NEWSLETTERS</P>
-                <P>@Website Design</P>
-                <div class="icon">
-                    <i class="fa-brands fa-instagram"></i>
+            <div class="footer-left">
+                <div class="footer-left-item">
+                    <h3> Sunday - Thursday</h3>
+                    <p>4-PM</p>
+                    <h3 style="margin-top: 30px;" > Friday - Thursday</h3>
+                    <p>4-PM</p>
                 </div>
-                <button>
-                    Send
-                </button>
+                <div class="dotted-line"></div>
+                <div class="footer-contact">
+                    <h3>(423) 266-1121</h3>
+                    <p style="margin-top: 20px;" >801 Chestnut Street 1</p>
+                    <p>chattanooga TN 37402</p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-right-item">
+                    <div class="footer-right-content">
+                        <h3>FOLLOW</h3>
+                        <p>GET THE LATEST NEWS.SIGN UP</p>
+                        <P>FOR OUR NEWSLETTERS</P>
+                        <P>@Website Design</P>
+                    </div>
+                    <div class="icon-button">
+                        <div class="icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <button>
+                            Send
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Footer Ends here-->
